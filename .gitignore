@@ -1,0 +1,5 @@
+build/
+out/
+*.zip
+*.sha256.txt
+__pycache__/

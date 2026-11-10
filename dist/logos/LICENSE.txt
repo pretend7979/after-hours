@@ -1,0 +1,22 @@
+Console logos used by After Hours Arcade Manager's library sidebar.
+
+switch2.svg
+    "Nintendo Switch 2 Red Logo.svg" from Wikimedia Commons:
+    https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_Red_Logo.svg
+    Marked public domain on Commons (too simple for copyright); it is a trademark.
+
+ps4.svg
+    "PlayStation 4 logo and wordmark.svg" from Wikimedia Commons:
+    https://commons.wikimedia.org/wiki/File:PlayStation_4_logo_and_wordmark.svg
+    Marked public domain on Commons (too simple for copyright); it is a trademark.
+
+Every other file
+    From the EmulationStation theme "carbon" v2.4 by Rookervik (based on "simple" by Nils
+    Bonenberger), as shipped with RetroBat (es-theme-carbon-master/art/logos). Licensed under
+    Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International:
+    https://creativecommons.org/licenses/by-nc-sa/4.0/
+    Files ending in "-w" are the theme's white versions of the same logos.
+
+The logos and names are trademarks of their respective owners (Nintendo, Sony, Sega,
+Microsoft, NEC, SNK, Atari and others). After Hours Arcade Manager is not affiliated with or endorsed by
+any of them; the logos only identify each console's games.

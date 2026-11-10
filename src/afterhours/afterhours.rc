@@ -1,0 +1,6 @@
+// SPDX-FileCopyrightText: Copyright 2026 After Hours Arcade Manager Project
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+#include "winresrc.h"
+
+IDI_ICON1 ICON "../../dist/afterhours.ico"

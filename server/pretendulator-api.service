@@ -1,0 +1,23 @@
+[Unit]
+Description=Pretendulator metadata API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=pretendulator-api
+Group=pretendulator-api
+# IGDB_CLIENT_ID and IGDB_CLIENT_SECRET; root-readable only, never in the repository.
+EnvironmentFile=/etc/pretendulator-api/env
+Environment=PRETENDULATOR_API_DATA=/var/lib/pretendulator-api
+ExecStart=/usr/bin/python3 /opt/pretendulator-api/pretendulator_api.py
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/pretendulator-api
+MemoryMax=256M
+
+[Install]
+WantedBy=multi-user.target

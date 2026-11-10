@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/library">
+    <file>systems.json</file>
+  </qresource>
+  <qresource prefix="/img">
+    <file alias="afterhours.ico">../../dist/afterhours.ico</file>
+  </qresource>
+</RCC>
